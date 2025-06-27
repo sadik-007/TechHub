@@ -11,14 +11,12 @@ namespace ProjectPP
         private string connectionString = @"Server=SADIK\SQLEXPRESS;Database=[Practice Database];Trusted_Connection=True;";
         private string userName;
 
-        // --- Default Constructor ---
         public CustomerHomePage()
         {
             InitializeComponent();
             this.Load += CustomerHomePage_Load;
         }
 
-        // --- Optional Constructor with User Name ---
         public CustomerHomePage(string userName)
         {
             InitializeComponent();
@@ -78,19 +76,11 @@ namespace ProjectPP
             }
             catch (Exception ex)
             {
-<<<<<<< HEAD
                 MessageBox.Show("Failed to load products. \nError: " + ex.Message, "Database Error");
             }
         }
 
         private Panel CreateProductCard(string productCode, byte[] imageData, string model, decimal currentPrice, decimal regularPrice, string status, string brand, string keyFeatures, string productType)
-=======
-                MessageBox.Show("Failed to load products from the database.\nError: " + ex.Message, "Database Error");
-            }
-        }
-
-        private Panel CreateProductCard(byte[] imageData, string model, decimal currentPrice, decimal regularPrice, string status, string brand, string keyFeatures)
->>>>>>> 0854c634a3d73ea5f487cb6d4aadb9bf43bc174b
         {
             Panel card = new Panel { Width = 260, Height = 360, BackColor = Color.White, Margin = new Padding(15), BorderStyle = BorderStyle.FixedSingle };
             PictureBox pic = new PictureBox { Dock = DockStyle.Top, Height = 150, SizeMode = PictureBoxSizeMode.Zoom };
@@ -101,7 +91,10 @@ namespace ProjectPP
                     pic.Image = Image.FromStream(ms);
                 }
             }
-            else { pic.BackColor = Color.Gainsboro; }
+            else
+            {
+                pic.BackColor = Color.Gainsboro;
+            }
 
             Label brandLabel = new Label { Text = brand, Font = new Font("Segoe UI", 9F), ForeColor = Color.Gray, Dock = DockStyle.Top, Padding = new Padding(10, 5, 10, 0), Height = 30 };
             Label nameLabel = new Label { Text = model, Font = new Font("Segoe UI", 10F, FontStyle.Bold), Dock = DockStyle.Top, Padding = new Padding(10, 0, 10, 5), Height = 55 };
@@ -114,21 +107,8 @@ namespace ProjectPP
             pricePanel.Controls.Add(regularPriceLabel);
             pricePanel.Controls.Add(currentPriceLabel);
 
-<<<<<<< HEAD
-            FlowLayoutPanel actionsPanel = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 45, Padding = new Padding(5, 5, 5, 5), FlowDirection = FlowDirection.LeftToRight };
+            FlowLayoutPanel actionsPanel = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 45, Padding = new Padding(5), FlowDirection = FlowDirection.LeftToRight };
             LinkLabel detailsLink = new LinkLabel { Text = "View Details", Font = new Font("Segoe UI", 10F), LinkColor = Color.DodgerBlue, Margin = new Padding(5, 5, 20, 5), AutoSize = true, TabStop = false };
-=======
-            LinkLabel detailsLink = new LinkLabel
-            {
-                Text = "View Details",
-                Dock = DockStyle.Bottom,
-                Height = 40,
-                Font = new Font("Segoe UI", 10F),
-                LinkColor = Color.DodgerBlue,
-                TextAlign = ContentAlignment.MiddleCenter,
-                TabStop = false
-            };
->>>>>>> 0854c634a3d73ea5f487cb6d4aadb9bf43bc174b
             detailsLink.LinkClicked += (s, ev) => { MessageBox.Show(keyFeatures, "Key Features: " + model); };
 
             Button buyButton = new Button { Text = "Buy Now", Font = new Font("Segoe UI", 10F, FontStyle.Bold), BackColor = Color.FromArgb(40, 167, 69), ForeColor = Color.White, FlatStyle = FlatStyle.Flat, Size = new Size(120, 35) };
@@ -151,12 +131,6 @@ namespace ProjectPP
             return card;
         }
 
-<<<<<<< HEAD
-        private void btnSearch_Click(object sender, EventArgs e) { /* ... */ }
-        private void CategoryButton_Click(object sender, EventArgs e) { /* ... */ }
-        private void txtSearch_Enter(object sender, EventArgs e) { /* ... */ }
-        private void txtSearch_Leave(object sender, EventArgs e) { /* ... */ }
-=======
         private void btnSearch_Click(object sender, EventArgs e)
         {
             if (txtSearch.Text != "Search Products...")
@@ -174,7 +148,7 @@ namespace ProjectPP
             if (sender is Button clickedButton)
             {
                 string category = clickedButton.Text;
-                MessageBox.Show("Category clicked: " + category);
+                LoadProductsFromDatabase(category);
             }
         }
 
@@ -196,13 +170,12 @@ namespace ProjectPP
             }
         }
 
-        // Unused paint/click events — you may delete them or leave them for Designer
+        // Optional empty event handlers
         private void pnlBody_Paint(object sender, PaintEventArgs e) { }
         private void lblWelcomeUser_Click(object sender, EventArgs e) { }
         private void txtSearch_TextChanged(object sender, EventArgs e) { }
         private void lblShopName_Click(object sender, EventArgs e) { }
         private void pnlHeader_Paint(object sender, PaintEventArgs e) { }
         private void pnlCategories_Paint(object sender, PaintEventArgs e) { }
->>>>>>> 0854c634a3d73ea5f487cb6d4aadb9bf43bc174b
     }
 }

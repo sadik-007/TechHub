@@ -133,3 +133,5 @@ C:\Users\User\Downloads\TechHub\Shop-Management-System\ProjectPP\obj\Debug\Proje
 C:\Users\User\Downloads\TechHub\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.ResetSalesmanPass.resources
 C:\Users\User\Downloads\TechHub\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.NewPassSales.resources
 >>>>>>> 0854c634a3d73ea5f487cb6d4aadb9bf43bc174b
+D:\C# Code\TechHub\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.NewPassSales.resources
+D:\C# Code\TechHub\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.ResetSalesmanPass.resources
