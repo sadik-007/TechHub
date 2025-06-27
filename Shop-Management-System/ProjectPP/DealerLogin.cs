@@ -31,5 +31,19 @@ namespace ProjectPP
         {
 
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            DealerRegistration dealerRegistration = new DealerRegistration();
+            dealerRegistration.ShowDialog();
+            this.Close();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            DealerReset dealerResetPassword = new DealerReset();
+            dealerResetPassword.ShowDialog();
+            this.Close();
+        }
     }
 }

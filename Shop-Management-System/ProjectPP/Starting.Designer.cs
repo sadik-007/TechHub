@@ -83,7 +83,7 @@
             this.lblShopName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(123)))), ((int)(((byte)(255)))));
             this.lblShopName.Location = new System.Drawing.Point(25, 17);
             this.lblShopName.Name = "lblShopName";
-            this.lblShopName.Size = new System.Drawing.Size(184, 45);
+            this.lblShopName.Size = new System.Drawing.Size(164, 45);
             this.lblShopName.TabIndex = 0;
             this.lblShopName.Text = "Tech Hub";
             // 
@@ -102,7 +102,6 @@
             this.loginToolStripMenuItem});
             this.menuStripMain.Location = new System.Drawing.Point(0, 80);
             this.menuStripMain.Name = "menuStripMain";
-            this.menuStripMain.Padding = new System.Windows.Forms.Padding(6, 2, 0, 2);
             this.menuStripMain.Size = new System.Drawing.Size(1282, 33);
             this.menuStripMain.TabIndex = 1;
             this.menuStripMain.Text = "menuStrip1";
@@ -159,14 +158,15 @@
             this.dealerLoginToolStripMenuItem});
             this.loginToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold);
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(83, 29);
+            this.loginToolStripMenuItem.Size = new System.Drawing.Size(79, 29);
             this.loginToolStripMenuItem.Text = "Log In";
+            this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
             // customerLoginToolStripMenuItem
             // 
             this.customerLoginToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F);
             this.customerLoginToolStripMenuItem.Name = "customerLoginToolStripMenuItem";
-            this.customerLoginToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.customerLoginToolStripMenuItem.Size = new System.Drawing.Size(245, 26);
             this.customerLoginToolStripMenuItem.Text = "🛒 Customer Login";
             this.customerLoginToolStripMenuItem.Click += new System.EventHandler(this.customerLoginToolStripMenuItem_Click);
             // 
@@ -174,7 +174,7 @@
             // 
             this.adminLoginToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F);
             this.adminLoginToolStripMenuItem.Name = "adminLoginToolStripMenuItem";
-            this.adminLoginToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.adminLoginToolStripMenuItem.Size = new System.Drawing.Size(245, 26);
             this.adminLoginToolStripMenuItem.Text = "👑 Admin Login";
             this.adminLoginToolStripMenuItem.Click += new System.EventHandler(this.adminLoginToolStripMenuItem_Click);
             // 
@@ -182,7 +182,7 @@
             // 
             this.salesmanLoginToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F);
             this.salesmanLoginToolStripMenuItem.Name = "salesmanLoginToolStripMenuItem";
-            this.salesmanLoginToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.salesmanLoginToolStripMenuItem.Size = new System.Drawing.Size(245, 26);
             this.salesmanLoginToolStripMenuItem.Text = "💼 Salesman Login";
             this.salesmanLoginToolStripMenuItem.Click += new System.EventHandler(this.salesmanLoginToolStripMenuItem_Click);
             // 
@@ -190,7 +190,7 @@
             // 
             this.dealerLoginToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F);
             this.dealerLoginToolStripMenuItem.Name = "dealerLoginToolStripMenuItem";
-            this.dealerLoginToolStripMenuItem.Size = new System.Drawing.Size(244, 28);
+            this.dealerLoginToolStripMenuItem.Size = new System.Drawing.Size(245, 26);
             this.dealerLoginToolStripMenuItem.Text = "🤝 Dealer Login";
             this.dealerLoginToolStripMenuItem.Click += new System.EventHandler(this.dealerLoginToolStripMenuItem_Click);
             // 
@@ -224,6 +224,7 @@
             this.menuStripMain.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
         #endregion
 

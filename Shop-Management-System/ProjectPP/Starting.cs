@@ -177,5 +177,10 @@ namespace ProjectPP
             dealerLogin.Show();
             this.Hide();
         }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

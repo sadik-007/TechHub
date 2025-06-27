@@ -104,3 +104,4 @@ D:\C# Code\TechHub\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.csproj.C
 D:\C# Code\TechHub\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.exe
 D:\C# Code\TechHub\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.pdb
 D:\C# Code\TechHub\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.SalesmanHomepage.resources
+D:\C# Code\TechHub\Shop-Management-System\ProjectPP\obj\Debug\ProjectPP.PurchasePage.resources
