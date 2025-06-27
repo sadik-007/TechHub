@@ -44,6 +44,7 @@
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Size = new System.Drawing.Size(1282, 80);
             this.pnlHeader.TabIndex = 0;
+            this.pnlHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlHeader_Paint);
             // 
             // lblWelcomeUser
             // 
@@ -56,6 +57,7 @@
             this.lblWelcomeUser.TabIndex = 3;
             this.lblWelcomeUser.Text = "👤 Welcome, User";
             this.lblWelcomeUser.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblWelcomeUser.Click += new System.EventHandler(this.lblWelcomeUser_Click);
             // 
             // btnSearch
             // 
@@ -81,6 +83,7 @@
             this.txtSearch.Size = new System.Drawing.Size(531, 38);
             this.txtSearch.TabIndex = 1;
             this.txtSearch.Text = "Search Products...";
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             this.txtSearch.Enter += new System.EventHandler(this.txtSearch_Enter);
             this.txtSearch.Leave += new System.EventHandler(this.txtSearch_Leave);
             // 
@@ -94,6 +97,7 @@
             this.lblShopName.Size = new System.Drawing.Size(164, 45);
             this.lblShopName.TabIndex = 0;
             this.lblShopName.Text = "Tech Hub";
+            this.lblShopName.Click += new System.EventHandler(this.lblShopName_Click);
             // 
             // pnlBody
             // 
@@ -104,6 +108,7 @@
             this.pnlBody.Padding = new System.Windows.Forms.Padding(20);
             this.pnlBody.Size = new System.Drawing.Size(1282, 573);
             this.pnlBody.TabIndex = 2;
+            this.pnlBody.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBody_Paint);
             // 
             // pnlCategories
             // 
@@ -120,6 +125,7 @@
             this.pnlCategories.Padding = new System.Windows.Forms.Padding(25, 6, 20, 5);
             this.pnlCategories.Size = new System.Drawing.Size(1282, 50);
             this.pnlCategories.TabIndex = 3;
+            this.pnlCategories.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlCategories_Paint);
             // 
             // btnComputer
             // 

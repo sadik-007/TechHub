@@ -108,6 +108,12 @@
     <Compile Include="Reset.Designer.cs">
       <DependentUpon>Reset.cs</DependentUpon>
     </Compile>
+    <Compile Include="SalesmanHomepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesmanHomepage.Designer.cs">
+      <DependentUpon>SalesmanHomepage.cs</DependentUpon>
+    </Compile>
     <Compile Include="SalesmanLog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +171,9 @@
     </Compile>
     <EmbeddedResource Include="Reset.resx">
       <DependentUpon>Reset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesmanHomepage.resx">
+      <DependentUpon>SalesmanHomepage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SalesmanLog.resx">
       <DependentUpon>SalesmanLog.cs</DependentUpon>

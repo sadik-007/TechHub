@@ -42,7 +42,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(287, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(265, 39);
+            this.label1.Size = new System.Drawing.Size(257, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "Reset Password";
             // 
@@ -98,7 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(882, 653);
+            this.ClientSize = new System.Drawing.Size(1182, 703);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);

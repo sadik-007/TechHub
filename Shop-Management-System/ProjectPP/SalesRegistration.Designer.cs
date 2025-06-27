@@ -39,7 +39,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Salesman = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,13 +49,14 @@
             this.txtusername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtphnnum
             // 
-            this.txtphnnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtphnnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtphnnum.Location = new System.Drawing.Point(616, 402);
             this.txtphnnum.Margin = new System.Windows.Forms.Padding(4);
             this.txtphnnum.Multiline = true;
@@ -77,13 +77,14 @@
             // 
             // txtemail
             // 
-            this.txtemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtemail.Location = new System.Drawing.Point(614, 295);
             this.txtemail.Margin = new System.Windows.Forms.Padding(4);
             this.txtemail.Multiline = true;
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(515, 50);
             this.txtemail.TabIndex = 46;
+            this.txtemail.TextChanged += new System.EventHandler(this.txtemail_TextChanged);
             // 
             // label6
             // 
@@ -98,7 +99,7 @@
             // 
             // txtconpass
             // 
-            this.txtconpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtconpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtconpass.Location = new System.Drawing.Point(616, 601);
             this.txtconpass.Margin = new System.Windows.Forms.Padding(4);
             this.txtconpass.Multiline = true;
@@ -106,6 +107,7 @@
             this.txtconpass.PasswordChar = '*';
             this.txtconpass.Size = new System.Drawing.Size(513, 47);
             this.txtconpass.TabIndex = 44;
+            this.txtconpass.TextChanged += new System.EventHandler(this.txtconpass_TextChanged);
             // 
             // label5
             // 
@@ -120,7 +122,7 @@
             // 
             // txtname
             // 
-            this.txtname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtname.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtname.Location = new System.Drawing.Point(616, 78);
             this.txtname.Margin = new System.Windows.Forms.Padding(4);
             this.txtname.Multiline = true;
@@ -166,17 +168,6 @@
             this.Salesman.TabIndex = 1;
             this.Salesman.Text = "Salesman";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(217, 253);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 135);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
@@ -189,6 +180,7 @@
             this.linkLabel3.TabIndex = 15;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Home";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked_1);
             // 
             // linkLabel2
             // 
@@ -227,6 +219,7 @@
             this.checkBox1.TabIndex = 38;
             this.checkBox1.Text = "Show Password";
             this.checkBox1.UseVisualStyleBackColor = false;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
             // 
             // btncancelSales
             // 
@@ -245,7 +238,7 @@
             this.btnlogSales.BackColor = System.Drawing.Color.Blue;
             this.btnlogSales.Font = new System.Drawing.Font("Microsoft YaHei", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlogSales.ForeColor = System.Drawing.Color.Snow;
-            this.btnlogSales.Location = new System.Drawing.Point(866, 666);
+            this.btnlogSales.Location = new System.Drawing.Point(845, 656);
             this.btnlogSales.Margin = new System.Windows.Forms.Padding(4);
             this.btnlogSales.Name = "btnlogSales";
             this.btnlogSales.Size = new System.Drawing.Size(214, 71);
@@ -256,7 +249,7 @@
             // 
             // txtPass
             // 
-            this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.Location = new System.Drawing.Point(614, 501);
             this.txtPass.Margin = new System.Windows.Forms.Padding(4);
             this.txtPass.Multiline = true;
@@ -264,10 +257,11 @@
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(515, 52);
             this.txtPass.TabIndex = 35;
+            this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             // 
             // txtusername
             // 
-            this.txtusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtusername.Location = new System.Drawing.Point(616, 183);
             this.txtusername.Margin = new System.Windows.Forms.Padding(4);
             this.txtusername.Multiline = true;
@@ -297,6 +291,17 @@
             this.label1.Size = new System.Drawing.Size(130, 29);
             this.label1.TabIndex = 40;
             this.label1.Text = "Username:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(217, 253);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(147, 135);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // SalesRegistration
             // 

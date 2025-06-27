@@ -148,5 +148,35 @@ namespace ProjectPP
                 txtSearch.ForeColor = Color.Gray;
             }
         }
+
+        private void pnlBody_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblWelcomeUser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblShopName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlHeader_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlCategories_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

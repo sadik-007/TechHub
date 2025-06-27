@@ -55,7 +55,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
-            this.lblTitle.Location = new System.Drawing.Point(334, 23);
+            this.lblTitle.Location = new System.Drawing.Point(386, 23);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(376, 50);
             this.lblTitle.TabIndex = 0;
@@ -66,7 +66,7 @@
             this.lblFullName.AutoSize = true;
             this.lblFullName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFullName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
-            this.lblFullName.Location = new System.Drawing.Point(249, 93);
+            this.lblFullName.Location = new System.Drawing.Point(301, 93);
             this.lblFullName.Name = "lblFullName";
             this.lblFullName.Size = new System.Drawing.Size(100, 28);
             this.lblFullName.TabIndex = 1;
@@ -77,7 +77,7 @@
             this.txtFullName.BackColor = System.Drawing.Color.White;
             this.txtFullName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtFullName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFullName.Location = new System.Drawing.Point(254, 124);
+            this.txtFullName.Location = new System.Drawing.Point(306, 124);
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.Size = new System.Drawing.Size(250, 34);
             this.txtFullName.TabIndex = 2;
@@ -87,7 +87,7 @@
             this.txtUserName.BackColor = System.Drawing.Color.White;
             this.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserName.Location = new System.Drawing.Point(564, 124);
+            this.txtUserName.Location = new System.Drawing.Point(616, 124);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(250, 34);
             this.txtUserName.TabIndex = 4;
@@ -98,7 +98,7 @@
             this.lblUserName.AutoSize = true;
             this.lblUserName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
-            this.lblUserName.Location = new System.Drawing.Point(559, 93);
+            this.lblUserName.Location = new System.Drawing.Point(611, 93);
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.Size = new System.Drawing.Size(108, 28);
             this.lblUserName.TabIndex = 3;
@@ -109,7 +109,7 @@
             this.txtAddress.BackColor = System.Drawing.Color.White;
             this.txtAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.Location = new System.Drawing.Point(254, 204);
+            this.txtAddress.Location = new System.Drawing.Point(306, 204);
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(560, 60);
@@ -121,7 +121,7 @@
             this.lblAddress.AutoSize = true;
             this.lblAddress.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
-            this.lblAddress.Location = new System.Drawing.Point(249, 173);
+            this.lblAddress.Location = new System.Drawing.Point(301, 173);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(82, 28);
             this.lblAddress.TabIndex = 5;
@@ -132,7 +132,7 @@
             this.txtContact.BackColor = System.Drawing.Color.White;
             this.txtContact.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtContact.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContact.Location = new System.Drawing.Point(254, 394);
+            this.txtContact.Location = new System.Drawing.Point(306, 394);
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(250, 34);
             this.txtContact.TabIndex = 10;
@@ -142,7 +142,7 @@
             this.lblContact.AutoSize = true;
             this.lblContact.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContact.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
-            this.lblContact.Location = new System.Drawing.Point(249, 363);
+            this.lblContact.Location = new System.Drawing.Point(301, 363);
             this.lblContact.Name = "lblContact";
             this.lblContact.Size = new System.Drawing.Size(157, 28);
             this.lblContact.TabIndex = 9;
@@ -153,7 +153,7 @@
             this.txtPassword.BackColor = System.Drawing.Color.White;
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(254, 474);
+            this.txtPassword.Location = new System.Drawing.Point(306, 474);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(250, 34);
             this.txtPassword.TabIndex = 14;
@@ -164,7 +164,7 @@
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
-            this.lblPassword.Location = new System.Drawing.Point(249, 443);
+            this.lblPassword.Location = new System.Drawing.Point(301, 443);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(93, 28);
             this.lblPassword.TabIndex = 13;
@@ -175,7 +175,7 @@
             this.txtConfirmPassword.BackColor = System.Drawing.Color.White;
             this.txtConfirmPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtConfirmPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfirmPassword.Location = new System.Drawing.Point(564, 474);
+            this.txtConfirmPassword.Location = new System.Drawing.Point(616, 474);
             this.txtConfirmPassword.Name = "txtConfirmPassword";
             this.txtConfirmPassword.Size = new System.Drawing.Size(250, 34);
             this.txtConfirmPassword.TabIndex = 16;
@@ -186,7 +186,7 @@
             this.lblConfirmPassword.AutoSize = true;
             this.lblConfirmPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblConfirmPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
-            this.lblConfirmPassword.Location = new System.Drawing.Point(559, 443);
+            this.lblConfirmPassword.Location = new System.Drawing.Point(611, 443);
             this.lblConfirmPassword.Name = "lblConfirmPassword";
             this.lblConfirmPassword.Size = new System.Drawing.Size(168, 28);
             this.lblConfirmPassword.TabIndex = 15;
@@ -199,7 +199,7 @@
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.White;
-            this.btnRegister.Location = new System.Drawing.Point(254, 543);
+            this.btnRegister.Location = new System.Drawing.Point(306, 543);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(560, 55);
             this.btnRegister.TabIndex = 17;
@@ -213,7 +213,7 @@
             this.linkBackToLogin.AutoSize = true;
             this.linkBackToLogin.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkBackToLogin.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(123)))), ((int)(((byte)(255)))));
-            this.linkBackToLogin.Location = new System.Drawing.Point(474, 613);
+            this.linkBackToLogin.Location = new System.Drawing.Point(526, 613);
             this.linkBackToLogin.Name = "linkBackToLogin";
             this.linkBackToLogin.Size = new System.Drawing.Size(113, 23);
             this.linkBackToLogin.TabIndex = 18;
@@ -226,7 +226,7 @@
             this.lblGmail.AutoSize = true;
             this.lblGmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
-            this.lblGmail.Location = new System.Drawing.Point(249, 283);
+            this.lblGmail.Location = new System.Drawing.Point(301, 283);
             this.lblGmail.Name = "lblGmail";
             this.lblGmail.Size = new System.Drawing.Size(63, 28);
             this.lblGmail.TabIndex = 7;
@@ -237,7 +237,7 @@
             this.txtGmail.BackColor = System.Drawing.Color.White;
             this.txtGmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtGmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGmail.Location = new System.Drawing.Point(254, 314);
+            this.txtGmail.Location = new System.Drawing.Point(306, 314);
             this.txtGmail.Name = "txtGmail";
             this.txtGmail.Size = new System.Drawing.Size(560, 34);
             this.txtGmail.TabIndex = 8;
@@ -247,7 +247,7 @@
             this.lblAge.AutoSize = true;
             this.lblAge.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAge.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
-            this.lblAge.Location = new System.Drawing.Point(559, 363);
+            this.lblAge.Location = new System.Drawing.Point(611, 363);
             this.lblAge.Name = "lblAge";
             this.lblAge.Size = new System.Drawing.Size(47, 28);
             this.lblAge.TabIndex = 11;
@@ -258,7 +258,7 @@
             this.txtAge.BackColor = System.Drawing.Color.White;
             this.txtAge.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtAge.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAge.Location = new System.Drawing.Point(564, 394);
+            this.txtAge.Location = new System.Drawing.Point(616, 394);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(250, 34);
             this.txtAge.TabIndex = 12;
@@ -267,7 +267,7 @@
             // 
             this.lblUserNameStatus.AutoSize = true;
             this.lblUserNameStatus.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserNameStatus.Location = new System.Drawing.Point(560, 161);
+            this.lblUserNameStatus.Location = new System.Drawing.Point(612, 161);
             this.lblUserNameStatus.Name = "lblUserNameStatus";
             this.lblUserNameStatus.Size = new System.Drawing.Size(0, 20);
             this.lblUserNameStatus.TabIndex = 19;
@@ -277,7 +277,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
-            this.ClientSize = new System.Drawing.Size(1082, 803);
+            this.ClientSize = new System.Drawing.Size(1182, 703);
             this.Controls.Add(this.lblUserNameStatus);
             this.Controls.Add(this.txtAge);
             this.Controls.Add(this.lblAge);

@@ -71,7 +71,7 @@ namespace ProjectPP
                 {
                     sqlCon.Open();
 
-                    string checkUserQuery = "SELECT COUNT(1) FROM Customer WHERE User_Name = @UserName";
+                    string checkUserQuery = "SELECT COUNT(1) FROM SalesmanLogin WHERE User_Name = @UserName";
                     using (SqlCommand checkUserCmd = new SqlCommand(checkUserQuery, sqlCon))
                     {
                         checkUserCmd.Parameters.AddWithValue("@UserName", username);
@@ -84,7 +84,7 @@ namespace ProjectPP
                         }
                     }
 
-                    string insertQuery = "INSERT INTO Customer (Full_Name, User_Name, Gmail, Contact_Number, Password) VALUES (@FullName, @UserName, @Gmail, @Contact, @Password)";
+                    string insertQuery = "INSERT INTO SalesmanLogin (Full_Name, User_Name, Gmail, Contact_Number, Password) VALUES (@FullName, @UserName, @Gmail, @Contact, @Password)";
                     using (SqlCommand insertCmd = new SqlCommand(insertQuery, sqlCon))
                     {
                         insertCmd.Parameters.AddWithValue("@FullName", Name);
@@ -109,6 +109,34 @@ namespace ProjectPP
 
         private void txtusername_TextChanged(object sender, EventArgs e)
         {
+        }
+
+        private void txtemail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
+        {
+            txtPass.PasswordChar = checkBox1.Checked ? '\0' : '*';
+            txtconpass.PasswordChar = checkBox1.Checked ? '\0' : '*';
+        }
+
+        private void txtPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtconpass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel3_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Starting back1 = new Starting();
+            back1.Show();
+            this.Hide();
         }
     }
 }
