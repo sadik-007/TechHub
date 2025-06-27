@@ -16,8 +16,13 @@ namespace ProjectPP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Starting());
             //Application.Run(new ProductEntry());
+=======
+            // Application.Run(new Starting());
+            Application.Run(new ResetSalesmanPass());
+>>>>>>> 0854c634a3d73ea5f487cb6d4aadb9bf43bc174b
         }
     }
 }

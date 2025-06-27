@@ -31,18 +31,20 @@
             this.lblNewPassword.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblNewPassword.Location = new System.Drawing.Point(346, 179);
             this.lblNewPassword.Name = "lblNewPassword";
-            this.lblNewPassword.Size = new System.Drawing.Size(141, 28);
+            this.lblNewPassword.Size = new System.Drawing.Size(115, 21);
             this.lblNewPassword.TabIndex = 1;
             this.lblNewPassword.Text = "New Password:";
+            this.lblNewPassword.Click += new System.EventHandler(this.lblNewPassword_Click);
             // 
             // txtNewPassword
             // 
             this.txtNewPassword.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.txtNewPassword.Location = new System.Drawing.Point(351, 210);
             this.txtNewPassword.Name = "txtNewPassword";
-            this.txtNewPassword.Size = new System.Drawing.Size(350, 34);
+            this.txtNewPassword.Size = new System.Drawing.Size(350, 29);
             this.txtNewPassword.TabIndex = 2;
             this.txtNewPassword.UseSystemPasswordChar = true;
+            this.txtNewPassword.TextChanged += new System.EventHandler(this.txtNewPassword_TextChanged);
             // 
             // lblConfirmPassword
             // 
@@ -50,18 +52,20 @@
             this.lblConfirmPassword.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.lblConfirmPassword.Location = new System.Drawing.Point(346, 269);
             this.lblConfirmPassword.Name = "lblConfirmPassword";
-            this.lblConfirmPassword.Size = new System.Drawing.Size(172, 28);
+            this.lblConfirmPassword.Size = new System.Drawing.Size(140, 21);
             this.lblConfirmPassword.TabIndex = 4;
             this.lblConfirmPassword.Text = "Confirm Password:";
+            this.lblConfirmPassword.Click += new System.EventHandler(this.lblConfirmPassword_Click);
             // 
             // txtConfirmPassword
             // 
             this.txtConfirmPassword.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.txtConfirmPassword.Location = new System.Drawing.Point(351, 300);
             this.txtConfirmPassword.Name = "txtConfirmPassword";
-            this.txtConfirmPassword.Size = new System.Drawing.Size(350, 34);
+            this.txtConfirmPassword.Size = new System.Drawing.Size(350, 29);
             this.txtConfirmPassword.TabIndex = 5;
             this.txtConfirmPassword.UseSystemPasswordChar = true;
+            this.txtConfirmPassword.TextChanged += new System.EventHandler(this.txtConfirmPassword_TextChanged);
             // 
             // btnUpdatePassword
             // 
@@ -84,9 +88,10 @@
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold);
             this.lblTitle.Location = new System.Drawing.Point(386, 89);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(304, 45);
+            this.lblTitle.Size = new System.Drawing.Size(252, 37);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Set New Password";
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // btnShowConfirmPassword
             // 
@@ -94,7 +99,7 @@
             this.btnShowConfirmPassword.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnShowConfirmPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnShowConfirmPassword.Font = new System.Drawing.Font("Segoe UI Emoji", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShowConfirmPassword.Location = new System.Drawing.Point(707, 300);
+            this.btnShowConfirmPassword.Location = new System.Drawing.Point(942, 269);
             this.btnShowConfirmPassword.Name = "btnShowConfirmPassword";
             this.btnShowConfirmPassword.Size = new System.Drawing.Size(44, 34);
             this.btnShowConfirmPassword.TabIndex = 6;
@@ -108,7 +113,7 @@
             this.btnShowNewPassword.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnShowNewPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnShowNewPassword.Font = new System.Drawing.Font("Segoe UI Emoji", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShowNewPassword.Location = new System.Drawing.Point(707, 210);
+            this.btnShowNewPassword.Location = new System.Drawing.Point(942, 210);
             this.btnShowNewPassword.Name = "btnShowNewPassword";
             this.btnShowNewPassword.Size = new System.Drawing.Size(44, 34);
             this.btnShowNewPassword.TabIndex = 3;
