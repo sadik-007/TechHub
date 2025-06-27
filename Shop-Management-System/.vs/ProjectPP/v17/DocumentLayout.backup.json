@@ -1,69 +1,113 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C# Code\\TechHub\\Shop-Management-System\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\salesmanhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\resetsalesmanpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\resetsalesmanpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\salesmanhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\resetsalesmanpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\resetsalesmanpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\salesmanhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\customerhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\customerhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\newpasssales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\newpasssales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\salesmanlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\newpasssales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\newpasssales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\newpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\newpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\newpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\newpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\salesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\salesmanlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\customerhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\customerhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\salesmanhomepage.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanhomepage.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\reset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\salesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\dealerreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\dealerreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\dealerreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\customerhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\customerhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\salesmanhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\customerhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\customerhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|c:\\users\\user\\downloads\\techhub\\shop-management-system\\projectpp\\salesmanhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\salesmanhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\customerhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\customerhomepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\salesmanhomepage.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanhomepage.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\dealerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\dealerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\dealerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\dealerlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\adminlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\adminlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\adminlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|d:\\c# code\\techhub\\shop-management-system\\projectpp\\salesmanlog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\projectpp\\salesmanlog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CEBAF76-D136-422F-9E1F-4ADC9757FC99}|ProjectPP\\ProjectPP.csproj|solutionrelative:projectpp\\salesmanlog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -78,11 +122,222 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewPass.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\NewPass.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\NewPass.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\NewPass.cs",
+              "RelativeToolTip": "ProjectPP\\NewPass.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAuwIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T19:01:28.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewPass.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\NewPass.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\NewPass.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\NewPass.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\NewPass.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:59:24.463Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewPassSales.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\NewPassSales.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\NewPassSales.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\NewPassSales.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\NewPassSales.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:56:11.334Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResetSalesmanPass.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\ResetSalesmanPass.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\ResetSalesmanPass.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\ResetSalesmanPass.cs",
+              "RelativeToolTip": "ProjectPP\\ResetSalesmanPass.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAC8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:29:20.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalesRegistration.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesRegistration.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\SalesRegistration.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesRegistration.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\SalesRegistration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:26:15.125Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResetSalesmanPass.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\ResetSalesmanPass.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\ResetSalesmanPass.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\ResetSalesmanPass.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\ResetSalesmanPass.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:25:31.411Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\Program.cs",
+              "RelativeToolTip": "ProjectPP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:08:33.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "NewPassSales.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\NewPassSales.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\NewPassSales.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\NewPassSales.cs",
+              "RelativeToolTip": "ProjectPP\\NewPassSales.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAADwv1sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T19:01:49.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalesmanLog.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanLog.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\SalesmanLog.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanLog.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\SalesmanLog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:51:19.44Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Reset.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\Reset.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\Reset.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\Reset.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\Reset.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:09:50.474Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Reset.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\Reset.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\Reset.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\Reset.cs",
+              "RelativeToolTip": "ProjectPP\\Reset.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwv0EAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:37:45.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SalesmanHomepage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\SalesmanHomepage.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.cs",
+              "RelativeToolTip": "ProjectPP\\SalesmanHomepage.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAMEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:53:29.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DealerRegistration.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\DealerRegistration.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\DealerRegistration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:03:48.506Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SalesRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesRegistration.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\SalesRegistration.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesRegistration.cs",
+              "RelativeToolTip": "ProjectPP\\SalesRegistration.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAADgv4gAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T18:36:32.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DealerReset.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\DealerReset.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\DealerReset.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\DealerReset.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\DealerReset.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:06:24.941Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerHomePage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\CustomerHomePage.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\CustomerHomePage.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\CustomerHomePage.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\CustomerHomePage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:50:58.776Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SalesmanHomepage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\SalesmanHomepage.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.cs [Design]",
+              "RelativeToolTip": "ProjectPP\\SalesmanHomepage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:51:23.39Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "CustomerHomePage.Designer.cs",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\CustomerHomePage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\CustomerHomePage.Designer.cs",
               "RelativeDocumentMoniker": "ProjectPP\\CustomerHomePage.Designer.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\CustomerHomePage.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\CustomerHomePage.Designer.cs",
               "RelativeToolTip": "ProjectPP\\CustomerHomePage.Designer.cs",
               "ViewState": "AgIAAOAAAAAAAAAAAAAIwO4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,109 +346,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SalesmanHomepage.cs [Design]",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.cs",
-              "RelativeDocumentMoniker": "ProjectPP\\SalesmanHomepage.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\SalesmanHomepage.cs [Design]",
+              "DocumentIndex": 17,
+              "Title": "CustomerHomePage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\CustomerHomePage.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\CustomerHomePage.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\CustomerHomePage.cs",
+              "RelativeToolTip": "ProjectPP\\CustomerHomePage.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAADwv60AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:51:23.39Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SalesmanLog.cs [Design]",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanLog.cs",
-              "RelativeDocumentMoniker": "ProjectPP\\SalesmanLog.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanLog.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\SalesmanLog.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:51:19.44Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SalesmanHomepage.cs",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.cs",
-              "RelativeDocumentMoniker": "ProjectPP\\SalesmanHomepage.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.cs",
-              "RelativeToolTip": "ProjectPP\\SalesmanHomepage.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAIwOEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:53:29.751Z",
+              "WhenOpened": "2025-06-27T18:03:09.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "SalesmanHomepage.Designer.cs",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.Designer.cs",
               "RelativeDocumentMoniker": "ProjectPP\\SalesmanHomepage.Designer.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.Designer.cs",
               "RelativeToolTip": "ProjectPP\\SalesmanHomepage.Designer.cs",
-              "ViewState": "AgIAANwAAAAAAAAAAAAIwPQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T14:47:30.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomerHomePage.cs [Design]",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\CustomerHomePage.cs",
-              "RelativeDocumentMoniker": "ProjectPP\\CustomerHomePage.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\CustomerHomePage.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\CustomerHomePage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:50:58.776Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SalesmanHomepage.resx",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.resx",
-              "RelativeDocumentMoniker": "ProjectPP\\SalesmanHomepage.resx",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.resx",
-              "RelativeToolTip": "ProjectPP\\SalesmanHomepage.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-06-27T14:53:25.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Reset.cs [Design]",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\Reset.cs",
-              "RelativeDocumentMoniker": "ProjectPP\\Reset.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\Reset.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\Reset.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:09:50.474Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\Form2.cs",
-              "RelativeDocumentMoniker": "ProjectPP\\Form2.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\Form2.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\Form2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:07:32.93Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\Form1.cs",
               "RelativeDocumentMoniker": "ProjectPP\\Form1.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\Form1.cs [Design]",
               "RelativeToolTip": "ProjectPP\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T14:07:32.113Z",
@@ -201,23 +384,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DealerReset.cs [Design]",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\DealerReset.cs",
-              "RelativeDocumentMoniker": "ProjectPP\\DealerReset.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\DealerReset.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\DealerReset.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:06:24.941Z",
-              "EditorCaption": " [Design]"
+              "DocumentIndex": 21,
+              "Title": "SalesmanHomepage.resx",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.resx",
+              "RelativeDocumentMoniker": "ProjectPP\\SalesmanHomepage.resx",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanHomepage.resx",
+              "RelativeToolTip": "ProjectPP\\SalesmanHomepage.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-27T14:53:25.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\Form2.cs",
+              "RelativeDocumentMoniker": "ProjectPP\\Form2.cs",
+              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:07:32.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "DealerRegistration.cs",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs",
               "RelativeDocumentMoniker": "ProjectPP\\DealerRegistration.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs",
               "RelativeToolTip": "ProjectPP\\DealerRegistration.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAlwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -226,47 +418,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DealerRegistration.cs [Design]",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs",
-              "RelativeDocumentMoniker": "ProjectPP\\DealerRegistration.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\DealerRegistration.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\DealerRegistration.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:03:48.506Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "DealerLogin.cs [Design]",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\DealerLogin.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\DealerLogin.cs",
               "RelativeDocumentMoniker": "ProjectPP\\DealerLogin.cs",
               "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\DealerLogin.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\DealerLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:01:52.66Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-27T14:01:52.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "AdminLog.cs [Design]",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\AdminLog.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\AdminLog.cs",
               "RelativeDocumentMoniker": "ProjectPP\\AdminLog.cs",
               "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\AdminLog.cs [Design]",
-              "RelativeToolTip": "ProjectPP\\AdminLog.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:01:13.808Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-27T14:01:13.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "SalesmanLog.Designer.cs",
-              "DocumentMoniker": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanLog.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanLog.Designer.cs",
               "RelativeDocumentMoniker": "ProjectPP\\SalesmanLog.Designer.cs",
-              "ToolTip": "D:\\C# Code\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanLog.Designer.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\TechHub\\Shop-Management-System\\ProjectPP\\SalesmanLog.Designer.cs",
               "RelativeToolTip": "ProjectPP\\SalesmanLog.Designer.cs",
               "ViewState": "AgIAAN4AAAAAAAAAAAAqwPAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

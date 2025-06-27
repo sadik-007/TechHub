@@ -32,7 +32,7 @@
             // pnlMain
             // 
             this.pnlMain.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pnlMain.BackColor = System.Drawing.Color.White;
+            this.pnlMain.BackColor = System.Drawing.Color.LightGreen;
             this.pnlMain.Controls.Add(this.linkBackToHome);
             this.pnlMain.Controls.Add(this.btnShowHidePassword);
             this.pnlMain.Controls.Add(this.linkLabel2);
@@ -43,9 +43,10 @@
             this.pnlMain.Controls.Add(this.txtUserName);
             this.pnlMain.Controls.Add(this.LbUname);
             this.pnlMain.Controls.Add(this.label1);
-            this.pnlMain.Location = new System.Drawing.Point(341, 76);
+            this.pnlMain.Location = new System.Drawing.Point(256, 62);
+            this.pnlMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(500, 550);
+            this.pnlMain.Size = new System.Drawing.Size(375, 447);
             this.pnlMain.TabIndex = 0;
             // 
             // linkBackToHome
@@ -54,9 +55,10 @@
             this.linkBackToHome.AutoSize = true;
             this.linkBackToHome.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.linkBackToHome.LinkColor = System.Drawing.Color.Gray;
-            this.linkBackToHome.Location = new System.Drawing.Point(175, 515);
+            this.linkBackToHome.Location = new System.Drawing.Point(131, 418);
+            this.linkBackToHome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkBackToHome.Name = "linkBackToHome";
-            this.linkBackToHome.Size = new System.Drawing.Size(155, 23);
+            this.linkBackToHome.Size = new System.Drawing.Size(125, 19);
             this.linkBackToHome.TabIndex = 7;
             this.linkBackToHome.TabStop = true;
             this.linkBackToHome.Text = "Back to Homepage";
@@ -68,9 +70,10 @@
             this.btnShowHidePassword.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnShowHidePassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnShowHidePassword.Font = new System.Drawing.Font("Segoe UI Emoji", 10.2F);
-            this.btnShowHidePassword.Location = new System.Drawing.Point(408, 290);
+            this.btnShowHidePassword.Location = new System.Drawing.Point(306, 236);
+            this.btnShowHidePassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnShowHidePassword.Name = "btnShowHidePassword";
-            this.btnShowHidePassword.Size = new System.Drawing.Size(42, 34);
+            this.btnShowHidePassword.Size = new System.Drawing.Size(32, 28);
             this.btnShowHidePassword.TabIndex = 3;
             this.btnShowHidePassword.Text = "👀";
             this.btnShowHidePassword.UseVisualStyleBackColor = false;
@@ -82,9 +85,10 @@
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.linkLabel2.LinkColor = System.Drawing.Color.DodgerBlue;
-            this.linkLabel2.Location = new System.Drawing.Point(289, 440);
+            this.linkLabel2.Location = new System.Drawing.Point(217, 358);
+            this.linkLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(167, 23);
+            this.linkLabel2.Size = new System.Drawing.Size(134, 19);
             this.linkLabel2.TabIndex = 6;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Don\'t have account?";
@@ -96,9 +100,10 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.linkLabel1.LinkColor = System.Drawing.Color.DodgerBlue;
-            this.linkLabel1.Location = new System.Drawing.Point(50, 440);
+            this.linkLabel1.Location = new System.Drawing.Point(38, 358);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(134, 23);
+            this.linkLabel1.Size = new System.Drawing.Size(111, 19);
             this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forget Password";
@@ -111,9 +116,10 @@
             this.btnLogIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogIn.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnLogIn.ForeColor = System.Drawing.Color.White;
-            this.btnLogIn.Location = new System.Drawing.Point(54, 355);
+            this.btnLogIn.Location = new System.Drawing.Point(40, 288);
+            this.btnLogIn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogIn.Name = "btnLogIn";
-            this.btnLogIn.Size = new System.Drawing.Size(396, 55);
+            this.btnLogIn.Size = new System.Drawing.Size(297, 45);
             this.btnLogIn.TabIndex = 4;
             this.btnLogIn.Text = "LOG IN";
             this.btnLogIn.UseVisualStyleBackColor = false;
@@ -123,9 +129,10 @@
             // 
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtPassword.Location = new System.Drawing.Point(54, 290);
+            this.txtPassword.Location = new System.Drawing.Point(40, 236);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(355, 34);
+            this.txtPassword.Size = new System.Drawing.Size(267, 29);
             this.txtPassword.TabIndex = 2;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
@@ -134,9 +141,10 @@
             this.LbPass.AutoSize = true;
             this.LbPass.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.LbPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
-            this.LbPass.Location = new System.Drawing.Point(49, 259);
+            this.LbPass.Location = new System.Drawing.Point(37, 210);
+            this.LbPass.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LbPass.Name = "LbPass";
-            this.LbPass.Size = new System.Drawing.Size(93, 28);
+            this.LbPass.Size = new System.Drawing.Size(76, 21);
             this.LbPass.TabIndex = 4;
             this.LbPass.Text = "Password";
             // 
@@ -144,9 +152,10 @@
             // 
             this.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.txtUserName.Location = new System.Drawing.Point(54, 195);
+            this.txtUserName.Location = new System.Drawing.Point(40, 158);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(396, 34);
+            this.txtUserName.Size = new System.Drawing.Size(298, 29);
             this.txtUserName.TabIndex = 1;
             this.txtUserName.TextChanged += new System.EventHandler(this.txtUserName_TextChanged);
             // 
@@ -155,9 +164,10 @@
             this.LbUname.AutoSize = true;
             this.LbUname.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.LbUname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(110)))), ((int)(((byte)(114)))));
-            this.LbUname.Location = new System.Drawing.Point(49, 164);
+            this.LbUname.Location = new System.Drawing.Point(37, 133);
+            this.LbUname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LbUname.Name = "LbUname";
-            this.LbUname.Size = new System.Drawing.Size(108, 28);
+            this.LbUname.Size = new System.Drawing.Size(88, 21);
             this.LbUname.TabIndex = 2;
             this.LbUname.Text = "User Name";
             // 
@@ -165,20 +175,22 @@
             // 
             this.label1.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(52)))), ((int)(((byte)(54)))));
-            this.label1.Location = new System.Drawing.Point(3, 50);
+            this.label1.Location = new System.Drawing.Point(2, 41);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(494, 50);
+            this.label1.Size = new System.Drawing.Size(370, 41);
             this.label1.TabIndex = 0;
             this.label1.Text = "Customer Log In";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
-            this.ClientSize = new System.Drawing.Size(1182, 703);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(886, 571);
             this.Controls.Add(this.pnlMain);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Log In";

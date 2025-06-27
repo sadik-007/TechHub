@@ -3,24 +3,35 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-using System.Linq;
 
 namespace ProjectPP
 {
     public partial class CustomerHomePage : Form
     {
-        private string _customerName;
-        private string connectionString = @"Server=SADIK\SQLEXPRESS;Database=Practice Database;Trusted_Connection=True;";
+        private string connectionString = @"Server=SADIK\SQLEXPRESS;Database=[Practice Database];Trusted_Connection=True;";
+        private string userName;
 
-        public CustomerHomePage(string customerName)
+        // --- Default Constructor ---
+        public CustomerHomePage()
         {
             InitializeComponent();
-            _customerName = customerName;
+            this.Load += CustomerHomePage_Load;
+        }
+
+        // --- Optional Constructor with User Name ---
+        public CustomerHomePage(string userName)
+        {
+            InitializeComponent();
+            this.userName = userName;
+            this.Load += CustomerHomePage_Load;
         }
 
         private void CustomerHomePage_Load(object sender, EventArgs e)
         {
-            lblWelcomeUser.Text = "👤 Welcome, " + _customerName;
+            if (!string.IsNullOrEmpty(userName))
+            {
+                lblWelcomeUser.Text = "Welcome, " + userName;
+            }
             LoadProductsFromDatabase();
         }
 
@@ -55,11 +66,10 @@ namespace ProjectPP
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Failed to load products from the database. \nError: " + ex.Message, "Database Error");
+                MessageBox.Show("Failed to load products from the database.\nError: " + ex.Message, "Database Error");
             }
         }
 
-        // --- THIS IS THE FULL, CORRECTED METHOD ---
         private Panel CreateProductCard(byte[] imageData, string model, decimal currentPrice, decimal regularPrice, string status, string brand, string keyFeatures)
         {
             Panel card = new Panel
@@ -79,7 +89,10 @@ namespace ProjectPP
             };
             if (imageData != null && imageData.Length > 0)
             {
-                using (MemoryStream ms = new MemoryStream(imageData)) { pic.Image = Image.FromStream(ms); }
+                using (MemoryStream ms = new MemoryStream(imageData))
+                {
+                    pic.Image = Image.FromStream(ms);
+                }
             }
             else
             {
@@ -89,7 +102,7 @@ namespace ProjectPP
             Label brandLabel = new Label { Text = brand, Font = new Font("Segoe UI", 9F), ForeColor = Color.Gray, Dock = DockStyle.Top, Padding = new Padding(10, 5, 10, 0), Height = 30 };
             Label nameLabel = new Label { Text = model, Font = new Font("Segoe UI", 10F, FontStyle.Bold), Dock = DockStyle.Top, Padding = new Padding(10, 0, 10, 5), Height = 55 };
             Label statusLabel = new Label { Text = status, Font = new Font("Segoe UI", 9F, FontStyle.Bold), Dock = DockStyle.Top, Padding = new Padding(10, 0, 10, 5), Height = 30 };
-            if (status.ToLower() == "in stock") statusLabel.ForeColor = Color.Green; else statusLabel.ForeColor = Color.Red;
+            statusLabel.ForeColor = status.ToLower() == "in stock" ? Color.Green : Color.Red;
 
             Panel pricePanel = new Panel { Dock = DockStyle.Top, Height = 40, Padding = new Padding(10, 0, 10, 0) };
             Label currentPriceLabel = new Label { Text = "৳" + currentPrice.ToString("N0"), Font = new Font("Segoe UI", 12F, FontStyle.Bold), ForeColor = Color.FromArgb(0, 123, 255), Dock = DockStyle.Left, AutoSize = true };
@@ -97,7 +110,16 @@ namespace ProjectPP
             pricePanel.Controls.Add(regularPriceLabel);
             pricePanel.Controls.Add(currentPriceLabel);
 
-            LinkLabel detailsLink = new LinkLabel { Text = "View Details", Dock = DockStyle.Bottom, Height = 40, Font = new Font("Segoe UI", 10F), LinkColor = Color.DodgerBlue, TextAlign = ContentAlignment.MiddleCenter, TabStop = false };
+            LinkLabel detailsLink = new LinkLabel
+            {
+                Text = "View Details",
+                Dock = DockStyle.Bottom,
+                Height = 40,
+                Font = new Font("Segoe UI", 10F),
+                LinkColor = Color.DodgerBlue,
+                TextAlign = ContentAlignment.MiddleCenter,
+                TabStop = false
+            };
             detailsLink.LinkClicked += (s, ev) => { MessageBox.Show(keyFeatures, "Key Features: " + model); };
 
             card.Controls.Add(detailsLink);
@@ -123,8 +145,7 @@ namespace ProjectPP
 
         private void CategoryButton_Click(object sender, EventArgs e)
         {
-            Button clickedButton = sender as Button;
-            if (clickedButton != null)
+            if (sender is Button clickedButton)
             {
                 string category = clickedButton.Text;
                 MessageBox.Show("Category clicked: " + category);
@@ -149,34 +170,12 @@ namespace ProjectPP
             }
         }
 
-        private void pnlBody_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lblWelcomeUser_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtSearch_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblShopName_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pnlHeader_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pnlCategories_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        // Unused paint/click events — you may delete them or leave them for Designer
+        private void pnlBody_Paint(object sender, PaintEventArgs e) { }
+        private void lblWelcomeUser_Click(object sender, EventArgs e) { }
+        private void txtSearch_TextChanged(object sender, EventArgs e) { }
+        private void lblShopName_Click(object sender, EventArgs e) { }
+        private void pnlHeader_Paint(object sender, PaintEventArgs e) { }
+        private void pnlCategories_Paint(object sender, PaintEventArgs e) { }
     }
 }
